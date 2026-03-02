@@ -5,10 +5,9 @@
 ### Task 1 (Mar 2)
 
 - Install Unity 2022, install Ultraleap 3Di SDK [software](https://www.ultraleap.com/downloads/)
-	- *remove this line, set the date in the next line, and replace all other lines with your report*
-	- **date** - *the date the task item was completed*
-	- *under each task item, report the actions you completed*
-	- *also report any issues you faced and the ways it was solved*
+	- Date: 2.3.26
+	- What I did: Installed Unity 2022.3.17f1, downloaded and installed the Ultraleap 3Di SDK.
+	- Issues: None
 
 - Create empty VR project
 
