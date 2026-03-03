@@ -10,6 +10,9 @@
 	- Issues: None
 
 - Create empty VR project
+  	- Date: 3.3.26
+	- What I did: I created a Unity VR project called “Hand‑controlled Camera in VR.”
+	- Issues: None
 
 - Add Ultraleap package as described [here]( https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/index.html)
 
