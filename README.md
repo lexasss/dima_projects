@@ -26,7 +26,7 @@
     - Done
 - Compile and run the project, and ensure the virtual hands are reflecting hand movements.
   	- Date: 3.3.26
-	- The hands are displayed in Unity in real time: [Uploading 2026-03-03 13-01-40.mkv…]()
+	- The hands are displayed in Unity in real time: https://drive.google.com/file/d/1Y_gJpbP6QvHLoNCBNTestix89OaoeZtd/view?usp=sharing
 
 - Follow [the instructions](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/your-first-project.html) to add hand rigs to you own project.
 
