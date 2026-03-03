@@ -15,11 +15,18 @@
 	- Issues: None
 
 - Add Ultraleap package as described [here]( https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/index.html)
+  	- Date: 3.3.26
+  	- What I did: I went to Project Settings → Package Manager and entered the Name, URL, and Scope.
+	Then, in the Window menu, I installed Ultraleap Tracking and imported the Tabletop Examples from the Samples section.
+	After that, in Project Settings → XR Plug‑in Management → OpenXR, I enabled Ultraleap Hand Tracking.
+  	- Issues: The first time, I installed several other unnecessary items in the Window section, so it didn’t work. That’s why I created the project again the second time, and then it worked.
 
-- Open the "Tabletop Example" project from the package's "Samples" section 
-
+- Open the "Tabletop Example" project from the package's "Samples" section
+ 	- Date: 3.3.26
+    - Done
 - Compile and run the project, and ensure the virtual hands are reflecting hand movements.
-
+  	- Date: 3.3.26
+	- The hands are displayed in Unity in real time: 
 - Follow [the instructions](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/your-first-project.html) to add hand rigs to you own project.
 
 - Study [Ultraleap Plugin features](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/plugin/index.html) to learns hand tracking capabilities.
