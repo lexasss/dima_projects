@@ -31,3 +31,9 @@
 - Follow [the instructions](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/your-first-project.html) to add hand rigs to you own project.
 
 - Study [Ultraleap Plugin features](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/plugin/index.html) to learns hand tracking capabilities.
+
+### Task 2 (Mar 4)
+
+- create a 3d object (eg., a cube), create a new script and define a class descendant from MonoBehavior, add the class to the created object.
+- in the class Startup method, instantiate a class that provides Ultraleap data and assing a handler to capture Ultraleap hand data
+- in the class Update method, set the X object's position to the hand (palm) X position.
