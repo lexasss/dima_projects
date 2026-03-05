@@ -31,10 +31,15 @@
 - Follow [the instructions](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/your-first-project.html) to add hand rigs to you own project.
 
 - Study [Ultraleap Plugin features](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/plugin/index.html) to learns hand tracking capabilities.
+	- Date: 4.3.26
+ 	- 🗸
 
 ### Task 2 (Mar 4)
 
 - create a 3d object (eg., a cube), create a new script and define a class descendant from MonoBehavior, add the class to the created object.
+	- Date: 4.3.26
+	- What i did: I created a new 3D cube, assigned a script component to it, and inserted the code.
+
 - in the class Startup method, instantiate a class that provides Ultraleap data and assing a handler to capture Ultraleap hand data
 - in the class Update method, set the X object's position to the hand (palm) X position.
 - find out if UltraLeap automatically detects pinch gestures. If so, modify your class so that the 3D object moves only when pinch is recognized in the right hand data.
