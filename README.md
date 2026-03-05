@@ -41,5 +41,13 @@
 	- What i did: I created a new 3D cube, assigned a script component to it, and inserted the code.
 
 - in the class Startup method, instantiate a class that provides Ultraleap data and assing a handler to capture Ultraleap hand data
+	- Date: 5.3.26
+ 	- Done
+  	- Issues: At first, I was writing the code for the new version of Ultraleap, and only later realized the mistake and switched to the old version.
 - in the class Update method, set the X object's position to the hand (palm) X position.
+	- Date: 5.3.26
+ 	- Done
+  	- Issues: At first, I was writing the code for the new version of Ultraleap, and only later realized the mistake and switched to the old version.
 - find out if UltraLeap automatically detects pinch gestures. If so, modify your class so that the 3D object moves only when pinch is recognized in the right hand data.
+	- Date: 5.3.26
+ 	- What i did: I added the condition if (!hand.IsPinching()) return; to the code.
