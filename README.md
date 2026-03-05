@@ -37,3 +37,4 @@
 - create a 3d object (eg., a cube), create a new script and define a class descendant from MonoBehavior, add the class to the created object.
 - in the class Startup method, instantiate a class that provides Ultraleap data and assing a handler to capture Ultraleap hand data
 - in the class Update method, set the X object's position to the hand (palm) X position.
+- find out if UltraLeap automatically detects pinch gestures. If so, modify your class so that the 3D object moves only when pinch is recognized in the right hand data.
