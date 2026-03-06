@@ -51,3 +51,8 @@
 - find out if UltraLeap automatically detects pinch gestures. If so, modify your class so that the 3D object moves only when pinch is recognized in the right hand data.
 	- Date: 5.3.26
  	- What i did: I added the condition if (!hand.IsPinching()) return; to the code.
+
+### Task 3 (Mar 6)
+
+- create a plane, create a new script and define a class CameraRenderer descendant from MonoBehavior, add the class to the created object. In the class Startup method, instantiate a class that captures frames from the default camera data. In the class Update method, obtain a camera frame and render it the plane.
+- modify the HandFollower class so that it scales (shrinks or stretches out) the plane with the camera image, but only if the hand's pinch gesture is active. Note that the operation must be relative to the current plane's scale, i.e. the pinch itself does not scale the plane, only the hand movement after the pinch scales it.
