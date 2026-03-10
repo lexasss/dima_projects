@@ -59,7 +59,7 @@
 
 ### Task 4 (Mar 10)
 
-- in CameraPlane class, limit the scaling so that X plane scalestays within the range 0.1 .. 10.
-- add some 3D shape ("scale"), long and narrow, that is placed below the camera plane along its bottom edge. Replace the hand-following cube with some nice-looking knob that travels in one-axis only. Find such a shape and the knob in free FBX libraries, or use Blender to create them.
-- modify the code in HandFollower class so that the knob represents the X scale of CameraPlane. The knob should move over the scale.
+- in CameraPlane class, limit the scaling so that X plane scale stays within the range from 0.1 to 10.
+- add some 3D shape ("scale"), long and narrow, that is placed below the camera plane along its bottom edge. Replace the hand-following cube with some nice-looking knob. Find such a shape and the knob in free FBX libraries, or use Blender to create them.
+- modify the code in HandFollower class so that the knob represents the X scale of CameraPlane. The knob should move over the scale only.
 - spend some time to figure out how to make the camera rendering brighter.
