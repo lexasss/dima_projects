@@ -56,3 +56,10 @@
 
 - create a plane, create a new script and define a class CameraRenderer descendant from MonoBehavior, add the class to the created object. In the class Startup method, instantiate a class that captures frames from the default camera. In the class Update method, obtain a camera frame and render it the plane.
 - modify the HandFollower class so that it scales (shrinks or stretches out) the plane with the camera image, but only if the hand's pinch gesture is active. Note that the сцалинг operation must be relative to the current plane's scale, i.e. the pinch itself does not scale the plane, only the hand movement after the pinch scales it.
+
+### Task 4 (Mar 10)
+
+- in CameraPlane class, limit the scaling so that X plane scalestays within the range 0.1 .. 10.
+- add some 3D shape ("scale"), long and narrow, that is placed below the camera plane along its bottom edge. Replace the hand-following cube with some nice-looking knob that travels in one-axis only. Find such a shape and the knob in free FBX libraries, or use Blender to create them.
+- modify the code in HandFollower class so that the knob represents the X scale of CameraPlane. The knob should move over the scale.
+- spend some time to figure out how to make the camera rendering brighter.
