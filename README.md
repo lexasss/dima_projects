@@ -55,7 +55,9 @@
 ### Task 3 (Mar 6)
 
 - create a plane, create a new script and define a class CameraRenderer descendant from MonoBehavior, add the class to the created object. In the class Startup method, instantiate a class that captures frames from the default camera. In the class Update method, obtain a camera frame and render it the plane.
+	- I added a new script to the plane, added the code, and dragged the plane into the cube’s provider. I also connected the camera that sends the image to the plane.
 - modify the HandFollower class so that it scales (shrinks or stretches out) the plane with the camera image, but only if the hand's pinch gesture is active. Note that the сцалинг operation must be relative to the current plane's scale, i.e. the pinch itself does not scale the plane, only the hand movement after the pinch scales it.
+	- I added a new script to the plane, added the code, and dragged the plane into the cube’s provider. I also connected the camera that sends the image to the plane.
 
 ### Task 4 (Mar 10)
 
