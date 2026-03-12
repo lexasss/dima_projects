@@ -57,5 +57,25 @@
 - in CameraPlane class, limit the scaling so that X plane scale stays within the range from 0.1 to 10.
 - add some 3D shape ("scale"), long and narrow, that is placed below the camera plane along its bottom edge. Replace the hand-following cube with some nice-looking knob. Find such a shape and the knob in free FBX libraries, or use Blender to create them.
 - modify the code in HandFollower class so that the knob represents the X scale of CameraPlane. The knob should move over the scale only.
-- study animations in Unity, and try to create some sinmple animation for the knob.
+- study animations in Unity, and try to create some simple animation for the knob.
 - spend some time to figure out how to make the camera rendering brighter.
+- create a github project, add it to the list of remotes in your local git repo, commit all unsaved changes, and push the project to the github.
+
+## Critical Tracking Task in VR
+
+### Task 1 (Mar 12)
+- clone [CTT project](https://github.com/lexasss/ctt) and study how it works.
+- create an empty VR project in Unity, name it `CttVr`.
+- copy the `Settings.cs` file from the CTT project to Unity's `Assets\Scripts` folder. Remove `INotifyPropertyChanged`, make all public properties as simple `{ get; set; }` properties.
+- modify the rest of the `Settings` class implementation so that it can be compiled.
+- note that is automatic properties storage (as it is implemented in `Settings.cs`) is not available in Unity, then implement custom loading/saving of `Settings` public properties from/to `settings.json` file stored in `Environment.SpecialFolder.LocalApplicationData`.
+
+### Task 2 (Mar 13)
+- create a 2d overlay with input controls to select the input type and orientation. Bind values of these combo-box controls to `Input` and `Orientation` properties of the `Settings` class.
+- add a `Start` button to the overlay: pressing this button must hide the 2d overlay.
+
+### Task 3 (Mar 14)
+- create a vertical plane, a black central line on this plane, and a red line on top of the black line.
+- `Settings.FieldSize` property must be equal to the plane's height.
+- both lines must be oriented vertically if `Settings.Orientation` is `Vertical`, or horizontally if `Settings.Orientation` is `Horizontal`.
+- bind the input position to the red line position: use the files from the original CTT applicaiton to get mouse, keyboard and joystick input, and also the logic that moves the red line.
