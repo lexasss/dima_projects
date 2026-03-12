@@ -59,9 +59,9 @@
 - add some 3D shape ("scale"), long and narrow, that is placed below the camera plane along its bottom edge. Replace the hand-following cube with some nice-looking knob. Find such a shape and the knob in free FBX libraries, or use Blender to create them.
 	- (10.3.26) I changed the cube to a 3D gear.
 - modify the code in HandFollower class so that the knob represents the X scale of CameraPlane. The knob should move over the scale only.
-	- (10.3.26) Done
+	- (10.3.26) Completed
 - study animations in Unity, and try to create some simple animation for the knob.
-	- (11.3.26)
+	- (11.3.26) Completed
 - spend some time to figure out how to make the camera rendering brighter.
 - create a github project, add it to the list of remotes in your local git repo, commit all unsaved changes, and push the project to the github.
 
