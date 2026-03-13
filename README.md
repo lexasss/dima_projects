@@ -69,10 +69,15 @@
 
 ### Task 1 (Mar 12)
 - clone [CTT project](https://github.com/lexasss/ctt) and study how it works.
+	- (12.3.26) Completed
 - create an empty VR project in Unity, name it `CttVr`.
+	- (12.3.26) Completed
 - copy the `Settings.cs` file from the CTT project to Unity's `Assets\Scripts` folder. Remove `INotifyPropertyChanged`, make all public properties as simple `{ get; set; }` properties.
+	- (12.3.26) Completed
 - modify the rest of the `Settings` class implementation so that it can be compiled.
+	- (12.3.26) Completed
 - note that is automatic properties storage (as it is implemented in `Settings.cs`) is not available in Unity, then implement custom loading/saving of `Settings` public properties from/to `settings.json` file stored in `Environment.SpecialFolder.LocalApplicationData`.
+	- (12.3.26) Completed
 
 ### Task 2 (Mar 13)
 - create a 2d overlay with input controls to select the input type and orientation. Bind values of these combo-box controls to `Input` and `Orientation` properties of the `Settings` class.
