@@ -63,7 +63,9 @@
 - study animations in Unity, and try to create some simple animation for the knob.
 	- (11.3.26) Completed
 - spend some time to figure out how to make the camera rendering brighter.
+	- (11.3.26) Completed
 - create a github project, add it to the list of remotes in your local git repo, commit all unsaved changes, and push the project to the github.
+  - (4.3.26) Completed
 
 ## Critical Tracking Task in VR
 
@@ -77,7 +79,7 @@
 - modify the rest of the `Settings` class implementation so that it can be compiled.
 	- (12.3.26) Completed
 - note that is automatic properties storage (as it is implemented in `Settings.cs`) is not available in Unity, then implement custom loading/saving of `Settings` public properties from/to `settings.json` file stored in `Environment.SpecialFolder.LocalApplicationData`.
-	- (12.3.26) Completed
+	- (12.3.26) (UltraLeap Camera)[https://github.com/Dimitrij000/UltraleapCamera]
 
 ### Task 2 (Mar 13)
 - create a 2d overlay with input controls to select the input type and orientation. Bind values of these combo-box controls to `Input` and `Orientation` properties of the `Settings` class.
