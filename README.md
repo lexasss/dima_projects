@@ -1,6 +1,6 @@
 # Practice projects
 
-## Hand-controlled camera in VR
+## [Hand-controlled camera in VR](https://github.com/Dimitrij000/UltraleapCamera)
 
 ### Task 1 (Mar 2)
 
@@ -65,9 +65,20 @@
 - spend some time to figure out how to make the camera rendering brighter.
 	- (11.3.26) Completed
 - create a github project, add it to the list of remotes in your local git repo, commit all unsaved changes, and push the project to the github.
-  - (4.3.26) (UltraLeap Camera)[https://github.com/Dimitrij000/UltraleapCamera]
+  	- (11.3.26) [UltraLeap Camera](https://github.com/Dimitrij000/UltraleapCamera)
 
-## Critical Tracking Task in VR
+### Task 5 (Mar 17)
+
+- create flatter scale model and replace it in the Unity project
+- remove non-English comments
+
+**Supervisor's contribution:**
+- camera rendering brightness solved
+- camera image flipped
+- default camera's name is used instead of the fixed camera name
+
+
+## [Critical Tracking Task in VR](https://github.com/Dimitrij000/CttVR)
 
 ### Task 1 (Mar 12)
 - clone [CTT project](https://github.com/lexasss/ctt) and study how it works.
