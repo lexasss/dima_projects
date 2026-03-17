@@ -94,7 +94,9 @@
 
 ### Task 2 (Mar 13)
 - create a 2d overlay with input controls to select the input type and orientation. Bind values of these combo-box controls to `Input` and `Orientation` properties of the `Settings` class.
+	- (16.3.26) Completed
 - add a `Start` button to the overlay: pressing this button must hide the 2d overlay.
+	- (16.3.26) Completed
 
 ### Task 3 (Mar 14)
 - create a vertical plane, a black central line on this plane, and a red line on top of the black line.
