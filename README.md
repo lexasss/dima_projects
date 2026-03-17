@@ -1,5 +1,7 @@
 # Practice projects
 
+***
+
 ## [Hand-controlled camera in VR](https://github.com/Dimitrij000/UltraleapCamera)
 
 ### Task 1 (Mar 2)
@@ -67,16 +69,18 @@
 - create a github project, add it to the list of remotes in your local git repo, commit all unsaved changes, and push the project to the github.
   	- (11.3.26) [UltraLeap Camera](https://github.com/Dimitrij000/UltraleapCamera)
 
-### Task 5 (Mar 17)
+### Task 5 (Mar 18)
 
 - create flatter scale model and replace it in the Unity project
-- remove non-English comments
+- test the project in VR with Meta Quest
+- remove non-English comments from the code
 
-**Supervisor's contribution:**
+_**Supervisor's contribution:**_
 - camera rendering brightness solved
 - camera image flipped
 - default camera's name is used instead of the fixed camera name
 
+***
 
 ## [Critical Tracking Task in VR](https://github.com/Dimitrij000/CttVR)
 
@@ -102,4 +106,7 @@
 - create a vertical plane, a black central line on this plane, and a red line on top of the black line.
 - `Settings.FieldSize` property must be equal to the plane's height.
 - both lines must be oriented vertically if `Settings.Orientation` is `Vertical`, or horizontally if `Settings.Orientation` is `Horizontal`.
+
+### Task 4 (Mar 17)
+- install Meta Quest 3 VR (maybe also SteamVR) and investigate how it run Unity app in VR.
 - bind the input position to the red line position: use the files from the original CTT applicaiton to get mouse, keyboard and joystick input, and also the logic that moves the red line.
