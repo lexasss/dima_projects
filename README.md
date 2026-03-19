@@ -111,6 +111,8 @@ _**Supervisor's contribution:**_
 - install Meta Quest 3 VR (maybe also SteamVR) and investigate how it run Unity app in VR.
 	- (18.3.26) Completed
 	- I connected the VR headset to the computer via Bluetooth, then in the headset settings I selected Remote Desktop and chose my PC.
-- bind the input position to the red line position: use the files from the original CTT applicaiton to get mouse, keyboard and joystick input, and also the logic that moves the red line.
-	- (18.3.26) Completed
-	- I connected the VR headset to the computer via Bluetooth, then in the headset settings I selected Remote Desktop and chose my PC.
+- transfer CTT logic into the project
+    - (19.3.26) *completed by the project leader*
+- bind the input position to the line position:
+	- study the `Assets/Scripts/ctt/Controller` class.
+	- find the places where LinePositionX and LinePositionY are changing and add a code that moves the line that you created.
