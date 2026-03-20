@@ -116,3 +116,4 @@ _**Supervisor's contribution:**_
 - bind the input position to the line position:
 	- study the `Assets/Scripts/ctt/Controller` class.
 	- find the places where LinePositionX and LinePositionY are changing and add a code that moves the line that you created.
+ 	- (20.3.26) Completed
