@@ -72,8 +72,11 @@
 ### Task 5 (Mar 18)
 
 - create flatter scale model and replace it in the Unity project
+	- (12.3.26) Completed
 - test the project in VR with Meta Quest
+	- (12.3.26) Completed
 - remove non-English comments from the code
+	- (12.3.26) Completed
 
 _**Supervisor's contribution:**_
 - camera rendering brightness solved
@@ -104,8 +107,11 @@ _**Supervisor's contribution:**_
 
 ### Task 3 (Mar 14)
 - create a vertical plane, a black central line on this plane, and a red line on top of the black line.
+	- (17.3.26) Completed
 - `Settings.FieldSize` property must be equal to the plane's height.
+	- (17.3.26) Completed
 - both lines must be oriented vertically if `Settings.Orientation` is `Vertical`, or horizontally if `Settings.Orientation` is `Horizontal`.
+	- (17.3.26) Completed
 
 ### Task 4 (Mar 17)
 - install Meta Quest 3 VR (maybe also SteamVR) and investigate how it run Unity app in VR.
