@@ -117,3 +117,18 @@ _**Supervisor's contribution:**_
 	- study the `Assets/Scripts/ctt/Controller` class.
 	- find the places where LinePositionX and LinePositionY are changing and add a code that moves the line that you created.
  	- (20.3.26) Completed
+
+## [Valtra IMU data visualizer](https://github.com/Dimitrij000/ValtraDataVis)
+
+### Task 1 (Mar 22)
+- create a Valtra tractor model in Blender
+
+### Task 2 (Mar 24)
+- create an empty 3D project in Unity, name it `ValtraDataVis`
+- publish the project on GitHub: make sure `.gitignore` contains the `data` folder, as data files are too heavy (data files to be obtained from the supervisor).
+- add some flat terrain, import the tractor model.
+
+### Task 3 (Mar 24)
+- create Valtra IMU data parser.
+- create a player that moves the tractor using `Easting` and `Northing` data fields. Playback should start and pause upon pressing ENTER button. The app should ask for the file to be played when ENTER is pressed for the first time.
+- find and import a Unity module that allows to control the camera using mouse and keyboard.
