@@ -128,6 +128,7 @@ _**Supervisor's contribution:**_
 
 ### Task 1 (Mar 22)
 - create a Valtra tractor model in Blender
+	- (25.3.26) Completed
 
 ### Task 2 (Mar 24)
 - create an empty 3D project in Unity, name it `ValtraDataVis`
