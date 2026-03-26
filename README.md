@@ -132,8 +132,11 @@ _**Supervisor's contribution:**_
 
 ### Task 2 (Mar 24)
 - create an empty 3D project in Unity, name it `ValtraDataVis`
+	- (25.3.26) Completed
 - publish the project on GitHub: make sure `.gitignore` contains the `data` folder, as data files are too heavy (data files to be obtained from the supervisor).
+	- (25.3.26) Completed
 - add some flat terrain, import the tractor model.
+	- (25.3.26) Completed
 
 ### Task 3 (Mar 24)
 - create Valtra IMU data parser.
