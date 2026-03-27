@@ -104,6 +104,7 @@ _**Supervisor's contribution:**_
 	- (16.3.26) Completed
 - add a `Start` button to the overlay: pressing this button must hide the 2d overlay.
 	- (16.3.26) Completed
+- add more UI controls to the overlay to cover most of the settings (leave out anything related to tones and pathes). Colors could be specified as RGB values separated by comma.
 
 ### Task 3 (Mar 14)
 - create a vertical plane, a black central line on this plane, and a red line on top of the black line.
