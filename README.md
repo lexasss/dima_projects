@@ -141,5 +141,7 @@ _**Supervisor's contribution:**_
 
 ### Task 3 (Mar 24)
 - create Valtra IMU data parser.
+	- (27.3.26) Completed
 - create a player that moves the tractor using `Easting` and `Northing` data fields. Playback should start and pause upon pressing ENTER button. The app should ask for the file to be played when ENTER is pressed for the first time.
+	- (27.3.26) Completed
 - find and import a Unity module that allows to control the camera using mouse and keyboard.
