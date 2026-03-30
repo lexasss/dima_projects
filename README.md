@@ -145,3 +145,4 @@ _**Supervisor's contribution:**_
 - create a player that moves the tractor using `Easting` and `Northing` data fields. Playback should start and pause upon pressing ENTER button. The app should ask for the file to be played when ENTER is pressed for the first time.
 	- (27.3.26) Completed
 - find and import a Unity module that allows to control the camera using mouse and keyboard.
+	- (27.3.26) Completed
