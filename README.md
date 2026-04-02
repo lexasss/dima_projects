@@ -104,7 +104,6 @@ _**Supervisor's contribution:**_
 	- (16.3.26) Completed
 - add a `Start` button to the overlay: pressing this button must hide the 2d overlay.
 	- (16.3.26) Completed
-- add more UI controls to the overlay to cover most of the settings (leave out anything related to tones and pathes). Colors could be specified as RGB values separated by comma.
 
 ### Task 3 (Mar 14)
 - create a vertical plane, a black central line on this plane, and a red line on top of the black line.
@@ -124,6 +123,12 @@ _**Supervisor's contribution:**_
 	- study the `Assets/Scripts/ctt/Controller` class.
 	- find the places where LinePositionX and LinePositionY are changing and add a code that moves the line that you created.
  	- (20.3.26) Completed
+
+### Task 5 (Mar 30)
+- add more UI controls to the overlay to cover most of the settings (leave out anything related to tones and pathes). Colors could be specified as RGB values separated by comma.
+- add two short threshold lines to the line movement field. One line must be placed at 1/4 and another at 3/4 of the fieldäs height (check the roginal app for reference).
+- update the code so that both threshold lines and the moving line get their width (heights in vertical orientation) from the corresponding Settings class properties (threshold line are call there as "Far" lines).
+- update the code so that all lines and the field (background) get thier colors from the corresponding Settings class properties.
 
 ## [Valtra IMU data visualizer](https://github.com/Dimitrij000/ValtraDataVis)
 
