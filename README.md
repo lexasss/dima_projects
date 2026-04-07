@@ -126,7 +126,7 @@ _**Supervisor's contribution:**_
 
 ### Task 5 (Mar 30)
 - add more UI controls to the overlay to cover most of the settings (leave out anything related to tones and pathes). Colors could be specified as RGB values separated by comma.
-- add two short threshold lines to the line movement field. One line must be placed at 1/4 and another at 3/4 of the fieldäs height (check the roginal app for reference).
+- add two short threshold lines to the line movement field. One line must be placed at 1/4 and another at 3/4 of the fieldäs height (check the original app for reference: blue short lines in [this](https://www.researchgate.net/figure/Critical-tracking-task-CTT-example-screen_fig1_256446631) image).
 - update the code so that both threshold lines and the moving line get their width (heights in vertical orientation) from the corresponding Settings class properties (threshold line are call there as "Far" lines).
 - update the code so that all lines and the field (background) get thier colors from the corresponding Settings class properties.
 
@@ -151,6 +151,13 @@ _**Supervisor's contribution:**_
 	- (27.3.26) Completed
 - use rotation from IMU data to orient the tractor properly.
 - find and import a Unity module that allows to control the camera using mouse and keyboard.
+	- (1.4.26) Completed / final edit by supervisor
+
+### Task 4 (Apr 7)
+- make the tracktor's path visible: discuss the task details with the supervisor before you start.
+- add some textures to the environment.
+- consider enabling physics for the tractor. Report your findings in any case.
+- consider creating wheel rotation animation, either at a fixed or controllable speed. Report your findings in any case.
 
 _**Supervisor's contribution:**_
 - imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
