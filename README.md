@@ -126,9 +126,18 @@ _**Supervisor's contribution:**_
 
 ### Task 5 (Mar 30)
 - add more UI controls to the overlay to cover most of the settings (leave out anything related to tones and pathes). Colors could be specified as RGB values separated by comma.
+ 	- (2.4.26) Completed
 - add two short threshold lines to the line movement field. One line must be placed at 1/4 and another at 3/4 of the fieldäs height (check the original app for reference: blue short lines in [this](https://www.researchgate.net/figure/Critical-tracking-task-CTT-example-screen_fig1_256446631) image).
+ 	- (8.4.26) Completed
 - update the code so that both threshold lines and the moving line get their width (heights in vertical orientation) from the corresponding Settings class properties (threshold line are call there as "Far" lines).
+ 	- (8.4.26) Completed
 - update the code so that all lines and the field (background) get thier colors from the corresponding Settings class properties.
+ 	- (8.4.26) Completed
+
+_**Supervisor's contribution:**_
+- extraction of original CTT code
+- overlay layout
+- fixed usage of settings due to poorly explained task #5 
 
 ## [Valtra IMU data visualizer](https://github.com/Dimitrij000/ValtraDataVis)
 
