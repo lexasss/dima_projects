@@ -134,6 +134,18 @@ _**Supervisor's contribution:**_
 - update the code so that all lines and the field (background) get thier colors from the corresponding Settings class properties.
  	- (8.4.26) Completed
 
+### Task 6 (Apr 9)
+- add virtual environment to the scene, so it looks like a user is standing in a room while duing the CTT task. You can find vairous furniture and even haouses on some websites for free, just download and import them. Prefer light-weighted models, so the repository (Assets folder) stays under, say, 250 Mb.
+- enabled camera rotation on mouse movement.
+- add several table near the CTT field (could be arrange in a circular manner: 3 tables on the left, and 3 tables on the right at the same distance from the camera)
+	- a table with 4 (2x2) rectangular black boxes (or plates) with white numbers from 1 to 8 (Consult the supervisor about the exact outlook of the table)
+	- similar table with 8 (2x4) boxes/plates. 
+	- similar table with 9 (3x3) boxes/plates. 
+	- a table with 12 (3x4) rectangular food images (banana, strawberry, lemon, etc.). 
+	- a table with 9 (3x3) rectangular household images (phone, stove, etc.).
+	- a table with 8 (2x8) traffic signs (use simplest from [Traffi](https://vayla.fi/en/transport-network/road-signs)).
+- add the code that logs (using `Logger.Instance.Add()`) the box/plate displayed number or item name every time a user hits it using hand controller's beam. 
+
 _**Supervisor's contribution:**_
 - extraction of original CTT code
 - overlay layout
@@ -164,7 +176,7 @@ _**Supervisor's contribution:**_
 	- (1.4.26) Completed / final edit by supervisor
 
 ### Task 4 (Apr 7)
-- make the tracktor's path visible: discuss the task details with the supervisor before you start.
+- make the tractor's path visible: discuss the task details with the supervisor before you start.
 - add some textures to the environment.
 - consider enabling physics for the tractor. Report your findings in any case.
 - consider creating wheel rotation animation, either at a fixed or controllable speed. Report your findings in any case.
