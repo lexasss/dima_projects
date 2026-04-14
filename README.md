@@ -177,9 +177,13 @@ _**Supervisor's contribution:**_
 
 ### Task 4 (Apr 7)
 - make the tractor's path visible: discuss the task details with the supervisor before you start.
+	- (14.4.26) Completed
 - add some textures to the environment.
+	- (14.4.26) Completed
 - consider enabling physics for the tractor. Report your findings in any case.
+	- (10.4.26) In process
 - consider creating wheel rotation animation, either at a fixed or controllable speed. Report your findings in any case.
+	- (13.4.26) Completed
 
 _**Supervisor's contribution:**_
 - imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
