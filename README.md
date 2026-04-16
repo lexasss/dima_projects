@@ -136,8 +136,9 @@ _**Supervisor's contribution:**_
 
 ### Task 6 (Apr 9)
 - add virtual environment to the scene, so it looks like a user is standing in a room while duing the CTT task. You can find vairous furniture and even haouses on some websites for free, just download and import them. Prefer light-weighted models, so the repository (Assets folder) stays under, say, 250 Mb.
+ 	- (15.4.26) Completed
 - enabled camera rotation on mouse movement.
-- add several table near the CTT field (could be arrange in a circular manner: 3 tables on the left, and 3 tables on the right at the same distance from the camera)
+- add several "tables" near the CTT field (could be arrange in a circular manner: 3 tables on the left, and 3 tables on the right at the same distance from the camera)
 	- a table with 4 (2x2) rectangular black boxes (or plates) with white numbers from 1 to 8 (Consult the supervisor about the exact outlook of the table)
 	- similar table with 8 (2x4) boxes/plates. 
 	- similar table with 9 (3x3) boxes/plates. 
@@ -184,6 +185,10 @@ _**Supervisor's contribution:**_
 	- (10.4.26) In process
 - consider creating wheel rotation animation, either at a fixed or controllable speed. Report your findings in any case.
 	- (13.4.26) Completed
+
+ ### Task 5 (Apr 16)
+ - create in Blender [a speed gauge](https://www.google.com/search?q=speed+gauge) (use max speed 80 km/h) and add it to the left-bottom corner of view. Use calculated `_speed` in `TractorPlayer.Play` method to control the gauge arrow.
+ - create in Blender [an orientation gauge](https://www.google.com/search?q=speed+gauge) and add it to the left-bottom corner of view. Use `Orientation.Heading` value from IMUdata record to control the gauge arrow.
 
 _**Supervisor's contribution:**_
 - imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
