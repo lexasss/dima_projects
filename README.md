@@ -188,7 +188,7 @@ _**Supervisor's contribution:**_
 
  ### Task 5 (Apr 16)
  - create in Blender [a speed gauge](https://www.google.com/search?q=speed+gauge) (use max speed 80 km/h) and add it to the left-bottom corner of view. Use calculated `_speed` in `TractorPlayer.Play` method to control the gauge arrow.
- - create in Blender [an orientation gauge](https://www.google.com/search?q=speed+gauge) and add it to the left-bottom corner of view. Use `Orientation.Heading` value from IMUdata record to control the gauge arrow.
+ - create in Blender [an orientation gauge](https://www.google.com/search?q=compass+gauge) and add it to the right-bottom corner of view. Use `Orientation.Heading` values from IMUData records to control the gauge arrow.
 
 _**Supervisor's contribution:**_
 - imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
