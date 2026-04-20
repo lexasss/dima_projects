@@ -138,6 +138,7 @@ _**Supervisor's contribution:**_
 - add virtual environment to the scene, so it looks like a user is standing in a room while duing the CTT task. You can find vairous furniture and even haouses on some websites for free, just download and import them. Prefer light-weighted models, so the repository (Assets folder) stays under, say, 250 Mb.
  	- (15.4.26) Completed
 - enabled camera rotation on mouse movement.
+	- (16.4.26) Completed
 - add several "tables" near the CTT field (could be arrange in a circular manner: 3 tables on the left, and 3 tables on the right at the same distance from the camera)
 	- a table with 4 (2x2) rectangular black boxes (or plates) with white numbers from 1 to 8 (Consult the supervisor about the exact outlook of the table)
 	- similar table with 8 (2x4) boxes/plates. 
@@ -145,7 +146,10 @@ _**Supervisor's contribution:**_
 	- a table with 12 (3x4) rectangular food images (banana, strawberry, lemon, etc.). 
 	- a table with 9 (3x3) rectangular household images (phone, stove, etc.).
 	- a table with 8 (2x8) traffic signs (use simplest from [Traffi](https://vayla.fi/en/transport-network/road-signs)).
-- add the code that logs (using `Logger.Instance.Add()`) the box/plate displayed number or item name every time a user hits it using hand controller's beam. 
+ 	- (20.4.26) Completed
+- add the code that logs (using `Logger.Instance.Add()`) the box/plate displayed number or item name every time a user hits it using hand controller's beam.
+	- (20.4.26) Completed, not tested
+	- *supervisor: suspended due to the absense of VR devices that can be borrowed*
 
 _**Supervisor's contribution:**_
 - extraction of original CTT code
