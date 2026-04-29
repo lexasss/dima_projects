@@ -197,8 +197,17 @@ _**Supervisor's contribution:**_
 _**Supervisor's contribution:**_
 - imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
 
-### AI Avatar Control  
+***
+
+## [AI Avatar Control](https://git](https://github.com/Dimitrij000/AiAvatar)
+
+### Task 1 (Apr 28)
 – Model a 3D character and export it to Unity  
+
+### Task 2 (Apr 28)
 – Connect AI to this 3D avatar  
-– Prepare animations that will react to AI commands  
+	- describe what kind of AI will be used and what means `connect`
+– Prepare animations that will react to AI commands
+	- list AI commands here
 – Create a fully functional application
+	- list the app features (i.e., what a user can do with it) and describe how a user will use it
