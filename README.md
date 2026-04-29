@@ -199,7 +199,7 @@ _**Supervisor's contribution:**_
 
 ***
 
-## [AI Avatar Control](https://git](https://github.com/Dimitrij000/AiAvatar)
+## [AI Avatar Control](https://github.com/Dimitrij000/AiAvatar)
 
 ### Task 1 (Apr 28)
 – Model a 3D character and export it to Unity  
