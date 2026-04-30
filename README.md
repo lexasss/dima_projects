@@ -207,7 +207,9 @@ _**Supervisor's contribution:**_
 ### Task 2 (Apr 28)
 – Connect AI to this 3D avatar  
 	- describe what kind of AI will be used and what means `connect`
+
 – Prepare animations that will react to AI commands
 	- list AI commands here
+
 – Create a fully functional application
 	- list the app features (i.e., what a user can do with it) and describe how a user will use it
