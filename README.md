@@ -202,14 +202,12 @@ _**Supervisor's contribution:**_
 ## [AI Avatar Control](https://github.com/Dimitrij000/AiAvatar)
 
 ### Task 1 (Apr 28)
-– Model a 3D character and export it to Unity  
+- Model a 3D character and export it to Unity  
 
 ### Task 2 (Apr 28)
-– Connect AI to this 3D avatar  
+- Connect AI to this 3D avatar  
 	- describe what kind of AI will be used and what means `connect`
-
-– Prepare animations that will react to AI commands
+- Prepare animations that will react to AI commands
 	- list AI commands here
-
-– Create a fully functional application
+- Create a fully functional application
 	- list the app features (i.e., what a user can do with it) and describe how a user will use it
