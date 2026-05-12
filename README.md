@@ -186,25 +186,29 @@ _**Supervisor's contribution:**_
 - add some textures to the environment.
 	- (14.4.26) Completed
 - consider enabling physics for the tractor. Report your findings in any case.
-	- (10.4.26) In process
+	- (10.4.26) rejected the idea.
 - consider creating wheel rotation animation, either at a fixed or controllable speed. Report your findings in any case.
 	- (13.4.26) Completed
 
  ### Task 5 (Apr 16)
  - create in Blender [a speed gauge](https://www.google.com/search?q=speed+gauge) (use max speed 80 km/h) and add it to the left-bottom corner of view. Use calculated `_speed` in `TractorPlayer.Play` method to control the gauge arrow.
+   - (16.4.26) Completed
  - create in Blender [an orientation gauge](https://www.google.com/search?q=compass+gauge) and add it to the right-bottom corner of view. Use `Orientation.Heading` values from IMUData records to control the gauge arrow.
+   - (17.4.26) Completed
 
 _**Supervisor's contribution:**_
-- imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM.
+- imported the fast IMU data provider class and used its instance in TractorPlayer class replacing the code that required full IMU data loading into RAM. Few bugs fixed.
 
+***
+*Dima was sick and recovering Apr 20-24*
 ***
 
 ## [AI Avatar Control](https://github.com/Dimitrij000/AiAvatar)
 
-### Task 1 (Apr 28)
+### Task 1 (Apr 27)
 - Model a 3D character and export it to Unity  
 
-### Task 2 (Apr 28)
+### Task 2 (Apr 27)
 - Connect AI to this 3D avatar  
 	- describe what kind of AI will be used and what means `connect`
 - Prepare animations that will react to AI commands
