@@ -3,6 +3,7 @@
 ***
 
 ## [Hand-controlled camera in VR](https://github.com/Dimitrij000/UltraleapCamera)
+To run the app, you need a Leap Motion hand tracker and a camera to be connected to your PC.
 
 ### Task 1 (Mar 2)
 
@@ -86,6 +87,7 @@ _**Supervisor's contribution:**_
 ***
 
 ## [Critical Tracking Task in VR](https://github.com/Dimitrij000/CttVR)
+The app required a joystick to be connected to the PC. Is also has mouse input controller, but in Unity it does not perform as expected.
 
 ### Task 1 (Mar 12)
 - clone [CTT project](https://github.com/lexasss/ctt) and study how it works.
@@ -205,7 +207,13 @@ _**Supervisor's contribution:**_
 ***
 
 ## [Viovox project](https://github.com/Dimitrij000/ViovoxCode)
+This is the project proposed by the student. All tasks were also defined by Dima.
 
 ### Task 1 (Apr 27)
-- Data from the Muse 2 via the Mind Monitor app is imported to my computer over Wi‑Fi. Using the python‑osc library in Python, my PC receives the data and outputs it in the console. Other libraries such as pyautogui, time, and collections.deque are also used for signal processing.
-The Python script classifies the features and converts them into commands that are displayed in the console or elsewhere after being launched.
+- Acquire Muse 2 device.
+- Learn signal processing with Python.
+- Find a way to import data from the Muse 2 device connected via Wi‑Fi to a phone where the Mind Monitor app is running.
+- Use the python‑osc library in Python to receives data; print out received values to the console.
+- Use available signal processing libraries detect event from EEG/EMG signal.
+- Write a Python script that classifies EEG/EMG features and converts them into commands that are displayed in the console or elsewhere after being launched.
+- Use pyautogui to control PC mouse with EEG/EMG events (for example, use blinks detected from EMG to fire mouse click events).
