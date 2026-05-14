@@ -203,15 +203,8 @@ _**Supervisor's contribution:**_
 *Dima was sick and recovering Apr 20-24*
 ***
 
-## [AI Avatar Control](https://github.com/Dimitrij000/AiAvatar)
+## [Viovox project](https://github.com/Dimitrij000/ViovoxCode)
 
 ### Task 1 (Apr 27)
-- Model a 3D character and export it to Unity  
-
-### Task 2 (Apr 27)
-- Connect AI to this 3D avatar  
-	- describe what kind of AI will be used and what means `connect`
-- Prepare animations that will react to AI commands
-	- list AI commands here
-- Create a fully functional application
-	- list the app features (i.e., what a user can do with it) and describe how a user will use it
+- Data from the Muse 2 via the Mind Monitor app is imported to my computer over Wi‑Fi. Using the python‑osc library in Python, my PC receives the data and outputs it in the console. Other libraries such as pyautogui, time, and collections.deque are also used for signal processing.
+The Python script classifies the features and converts them into commands that are displayed in the console or elsewhere after being launched.
