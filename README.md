@@ -157,6 +157,7 @@ _**Supervisor's contribution:**_
 - fixed usage of settings due to poorly explained task #5 
 
 ## [Valtra IMU data visualizer](https://github.com/Dimitrij000/ValtraDataVis)
+Before running the app, download [Valtra IMU data](https://drive.google.com/file/d/1SBz3bJOEPtFi0JkdZ6zTQTrrMtTMUgAe/view?usp=sharing) and unzip it to *Assets* folder. Ensure that you have large text files in *Assets\Data* folder.
 
 ### Task 1 (Mar 22)
 - create a Valtra tractor model in Blender
